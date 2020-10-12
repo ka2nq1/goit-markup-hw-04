@@ -599,8 +599,8 @@ footer {
 }
 
 footer .container {
-    margin-right: 70px;
-    margin-left: 200px;
+    display: flex;
+    min-width: 1200px;
 }
 
 footer .adress, .e-mail {
@@ -658,6 +658,7 @@ footer .e-mail {
 }
 
 .social {
+    margin-left: 85px;
     margin-top: 12px;
     width: 206px;
     height: 80px;
